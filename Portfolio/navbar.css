@@ -3,7 +3,8 @@
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
@@ -22,7 +23,7 @@ nav {
 .logo {
     font-weight: bold;
     font-size: 32px;
-    color:#181818;
+    color: #181818;
 }
 
 .logo span {
@@ -82,9 +83,10 @@ nav ul li a:hover {
 }
 
 /* Hero Section */
-.hero-parent-root{
+.hero-parent-root {
     background-color: #FFF1D3;
 }
+
 .hero-parent {
     display: flex;
     justify-content: space-between;
@@ -113,30 +115,73 @@ nav ul li a:hover {
 }
 
 /* About Me section */
-.about-parent{
+.about-parent {
     width: 800px;
     height: 300px;
     background-color: #FFF1D3;
     margin: 70px auto;
     border-radius: 10px;
-    padding: 70px ;
+    padding: 70px;
     text-align: center;
 }
-.about-parent p{
+
+.about-parent p {
     margin: 16px 0px;
     color: #757575;
 }
-.about-box-parent{
+
+.about-box-parent {
     display: flex;
     justify-content: space-between;
 }
-.about-box-parent h3{
+
+.about-box-parent h3 {
     color: #464545;
     font-weight: 600;
     font-size: 15px;
 }
-.about-box-parent .box{
+
+.about-box-parent .box {
     padding: 5px;
-    background-color:  #f0efec;
+    background-color: #f0efec;
     border-radius: 10px;
+}
+
+/* What i do */
+.what-i-do-parent {
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do-parent h2{
+    margin-bottom:20px;
+}
+.what-i-do-parent p{
+    font-weight: 400px;
+    color: #757575;
+}
+
+.what-i-do-card-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.what-i-do-card {
+    width: 220px;
+    height: 200px;
+    box-shadow: 0px 6px 50px 0px #0000000F;
+    padding: 40px;
+    text-align: left;
+    background-color: white;
+}
+
+.what-i-do-card p {
+    color: #757575;
+}
+
+.what-i-do-card h2 {
+    margin: 15px 0px;
+    color: #181818;
+    ;
 }
