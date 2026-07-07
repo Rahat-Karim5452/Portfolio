@@ -185,3 +185,39 @@ nav ul li a:hover {
     color: #181818;
     ;
 }
+
+
+/* Resume Section */
+.summary-of-my-resume-heading{
+    text-align: center;
+    margin-top:100px;
+    color: #181818;;
+}
+.resume-container {
+    display: flex;
+    justify-content: center;
+    gap:70px;
+    margin-top: 50px;
+    color: #757575;
+    box-shadow: 0px 6px 50px 0px #0000000F;
+    padding: 40px;
+    border-radius: 5px;
+}
+.content-resume h3{
+    margin-top:10px;
+    color: #757575;
+}
+.content-resume h4{
+    margin-top:10px;
+    color: #757575;
+}
+.content-resume p{
+    margin-top:10px;
+    margin-bottom: 18px;
+    color: #757575;
+    font-size: small;
+}
+.cv-button{
+    text-align: center;
+    margin-top: 25px;
+}
