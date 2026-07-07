@@ -152,10 +152,12 @@ nav ul li a:hover {
     margin: 60px auto;
     text-align: center;
 }
-.what-i-do-parent h2{
-    margin-bottom:20px;
+
+.what-i-do-parent h2 {
+    margin-bottom: 20px;
 }
-.what-i-do-parent p{
+
+.what-i-do-parent p {
     font-weight: 400px;
     color: #757575;
 }
@@ -188,36 +190,90 @@ nav ul li a:hover {
 
 
 /* Resume Section */
-.summary-of-my-resume-heading{
+.summary-of-my-resume-heading {
     text-align: center;
-    margin-top:100px;
-    color: #181818;;
+    margin-top: 100px;
+    color: #181818;
+    ;
 }
+
 .resume-container {
     display: flex;
     justify-content: center;
-    gap:70px;
+    gap: 70px;
     margin-top: 50px;
     color: #757575;
     box-shadow: 0px 6px 50px 0px #0000000F;
     padding: 40px;
     border-radius: 5px;
 }
-.content-resume h3{
-    margin-top:10px;
+
+.content-resume h3 {
+    margin-top: 10px;
     color: #757575;
 }
-.content-resume h4{
-    margin-top:10px;
+
+.content-resume h4 {
+    margin-top: 10px;
     color: #757575;
 }
-.content-resume p{
-    margin-top:10px;
+
+.content-resume p {
+    margin-top: 10px;
     margin-bottom: 18px;
     color: #757575;
     font-size: small;
 }
-.cv-button{
+
+.cv-button {
     text-align: center;
     margin-top: 25px;
+}
+
+
+/* My Amazing Work */
+.amazing-work-heding {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.gallery {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    grid-auto-rows: 200px;
+    grid-template-areas:
+        "one two three"
+        "four two six"
+        "four five six";
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-1{
+    grid-area: one;
+}
+
+.box-2{
+    grid-area: two;
+}
+
+.box-3{
+    grid-area: three;
+}
+
+.box-4{
+    grid-area: four;
+}
+
+.box-5{
+    grid-area: five;
+}
+
+.box-6{
+    grid-area: six;
 }
